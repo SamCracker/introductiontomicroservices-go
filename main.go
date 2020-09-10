@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/samcracker/introductiontomicroserver-go/handlers"
+	"github.com/samcracker/introductiontomicroservices-go/handlers"
 )
 
 var bindAddress = env.String("BIND_ADDRESS", false, ":9090", "Bind address for the server")
